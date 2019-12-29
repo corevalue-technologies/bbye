@@ -6,7 +6,7 @@ Command to kill process, delete user ;-)
 
 you may add these in your path variable via your **~/.bash_profile** file
 
-## Usage of website-downloader
+## Usage of bbye
 
 `$ ./bbye <process/user name>`
 

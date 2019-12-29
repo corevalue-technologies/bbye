@@ -8,12 +8,14 @@ you may add these in your path variable via your **~/.bash_profile** file
 
 ## Usage of website-downloader
 
-`$ ./bbye <process/user/filen name>`
+`$ ./bbye <process/user name>`
 
 e.g.
 
 `$ ./bbye TextEdit`
+
 Okay, Bro. killing...
+
 16551
 
 16579
@@ -22,5 +24,6 @@ Okay, Bro. killing...
 
 
 `$ ./bbye guestuser`
-Okay, Bro. killOkay, Bro. deleting guestuser...
+
+Okay, Bro. deleting guestuser...
 

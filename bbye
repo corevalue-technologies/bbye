@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for i in  $@; do
+    if pgrep -f $i >/dev/null 2>&1;then
+        echo "Okay, Bro. killing..."
+        pkill $i
+        killall -s SIGINT $i
+        ps -A | grep $i | awk '{print $1}'
+    elif id -u $i >/dev/null 2>&1;then
+        echo "Okay, Bro. deleting $i..."
+        #userdel $i
+    fi
+done
